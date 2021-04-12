@@ -123,7 +123,7 @@
   </div>
   {% endif %}
 </section>
-
+</section>
 <section class="py-5 bg-image overlay-primary fixed overlay" style="background-image: url('{% static 'images/hero_1.jpg' %}');">
   <div class="container">
     {% if request.user.role == "employer" %}
@@ -173,15 +173,40 @@
 </div>
 </div>
 </div>
-</div>
-</section>
+<div class="col-6 col-lg-3 col-md-6 text-center">
+  <img src="{% static 'images/logo_mailchimp.svg' %}" alt="Image" class="img-fluid logo-1">
+  </div>
+  <div class="col-6 col-lg-3 col-md-6 text-center">
+  <img src="{% static 'images/logo_paypal.svg' %}" alt="Image" class="img-fluid logo-2">
+  </div>
+  <div class="col-6 col-lg-3 col-md-6 text-center">
+  <img src="{% static 'images/logo_stripe.svg' %}" alt="Image" class="img-fluid logo-3">
+  </div>
+  <div class="col-6 col-lg-3 col-md-6 text-center">
+  <img src="{% static 'images/logo_visa.svg' %}" alt="Image" class="img-fluid logo-4">
+  </div>
+  <div class="col-6 col-lg-3 col-md-6 text-center">
+  <img src="{% static 'images/logo_apple.svg' %}" alt="Image" class="img-fluid logo-5">
+  </div>
+  <div class="col-6 col-lg-3 col-md-6 text-center">
+  <img src="{% static 'images/logo_tinder.svg' %}" alt="Image" class="img-fluid logo-6">
+  </div>
+  <div class="col-6 col-lg-3 col-md-6 text-center">
+  <img src="{% static 'images/logo_sony.svg' %}" alt="Image" class="img-fluid logo-7">
+  </div>
+  <div class="col-6 col-lg-3 col-md-6 text-center">
+  <img src="{% static 'images/logo_airbnb.svg' %}" alt="Image" class="img-fluid logo-8">
+  </div>
+  </div>
+  </div>
+  </section>
 
 <section class="bg-light pt-5 testimony-full">
 
   <div class="owl-carousel single-carousel">
 
 
-    <!-- <div class="container">
+    <div class="container">
       <div class="row">
         <div class="col-lg-6 align-self-center text-center text-lg-left">
           <blockquote>
@@ -191,7 +216,7 @@
           </blockquote>
         </div>
         <div class="col-lg-6 align-self-end text-center text-lg-right">
-          <img src="images/person_transparent_2.png" alt="Image" class="img-fluid mb-0">
+          <img src="{% static 'images/person_transparent_2.png' %}" alt="Image" class="img-fluid mb-0">
         </div>
       </div>
     </div>
@@ -206,11 +231,24 @@
           </blockquote>
         </div>
         <div class="col-lg-6 align-self-end text-center text-lg-right">
-          <img src="images/person_transparent.png" alt="Image" class="img-fluid mb-0">
+          <img src="{% static 'images/person_transparent.png' %}" alt="Image" class="img-fluid mb-0">
         </div>
       </div>
-    </div> -->
-
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center text-center text-lg-left">
+          <blockquote>
+            <p>&ldquo;Soluta quasi cum delectus eum facilis recusandae nesciunt molestias accusantium libero dolores
+              repellat id in dolorem laborum ad modi qui at quas dolorum voluptatem voluptatum repudiandae.&rdquo;</p>
+            <p><cite> &mdash; Corey Woods, @Dribbble</cite></p>
+          </blockquote>
+        </div>
+        <div class="col-lg-6 align-self-end text-center text-lg-right">
+          <img src="{% static 'images/person_transparent_2.png' %}" alt="Image" class="img-fluid mb-0">
+        </div>
+      </div>
+    </div>
   </div>
 
 </section>

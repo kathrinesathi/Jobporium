@@ -71,10 +71,17 @@
                 placeholder="{{ field.field.widget.attrs.placeholder }}">
             </div>
           </div>
-
+          
+          
           {% endif %}
           {% endfor %}
           <div class="row form-group">
+
+          <div class="col-md-12 mb-4">
+            <label class="text-black" for="upload">Upload resume</label>
+            <input type="submit" value="Upload" class="btn px-4 btn-primary text-white">
+          </div>
+
             <div class="col-md-12">
               <input type="submit" value="Update" class="btn px-4 btn-primary text-white">
             </div>
