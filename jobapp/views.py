@@ -61,6 +61,19 @@ def home_view(request):
     print('ok')
     return render(request, 'jobapp/index.html', context)
 
+def about_view(request):
+    return render(request, 'jobapp/aboutus.html', {})
+
+def blog_view(request):
+    return render(request, 'jobapp/blog.html', {})
+
+def category_view(request):
+    return render(request, 'jobapp/category-list.html', {})
+
+def contact_view(request):
+    return render(request, 'jobapp/contactus.html', {})
+
+
 
 def job_list_View(request):
     """

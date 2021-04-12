@@ -7,6 +7,10 @@ app_name = "jobapp"
 urlpatterns = [
 
     path('', views.home_view, name='home'),
+    path('about-us/', views.about_view, name='about-us'),
+    path('blog/', views.blog_view, name='blog'),
+    path('contact-us/', views.contact_view, name='contact-us'),
+    path('category/', views.category_view, name='category'),
     path('jobs/', views.job_list_View, name='job-list'),
     path('job/create/', views.create_job_View, name='create-job'),
     path('job/<int:id>/', views.single_job_view, name='single-job'),

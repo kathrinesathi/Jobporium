@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:200,300,400,700");
+
 .site-navbar {
   margin-bottom: 0px;
   z-index: 1999;
@@ -1283,11 +1284,16 @@ h1, h2, h3, h4 {
 
 .site-menu-toggle:hover {
   text-decoration: none; }
-
+.text-justify{
+  color:#fff;
+}
+.site-footer h5{
+  color:#fff;
+}
 .site-footer {
   padding: 7rem 0;
   position: relative;
-  background: #555; }
+  background: grey; }
   @media (max-width: 991.98px) {
     .site-footer {
       padding: 2rem 0; } }
@@ -1306,17 +1312,17 @@ h1, h2, h3, h4 {
   .site-footer h3 {
     font-size: 1rem;
     margin-bottom: 1.5rem;
-    color: #fff; }
+    color:#fff }
   .site-footer a {
-    color: rgba(255, 255, 255, 0.5); }
+    color: #fff }
     .site-footer a:hover {
-      color: #fff; }
+      color: #CC5500; }
   .site-footer ul li {
     margin-bottom: .5rem; }
     .site-footer ul li a {
-      color: rgba(255, 255, 255, 0.5); }
+      color: #fff}
       .site-footer ul li a:hover {
-        color: #fff; }
+        color: #CC5500; }
   .site-footer .scroll-top {
     position: absolute;
     z-index: 5;
@@ -1339,12 +1345,12 @@ h1, h2, h3, h4 {
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
-      color: #000 !important; }
+      color: #fff !important; }
 
 .copyright {
-  color: rgba(255, 255, 255, 0.5); }
-  .copyright a {
-    color: #fff; }
+  color: #fff; }
+  .copyright a:hover {
+    color: #CC5500; }
 
 .footer-social a, .social a {
   display: inline-block;
