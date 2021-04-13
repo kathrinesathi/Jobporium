@@ -539,7 +539,7 @@ h1, h2, h3, h4 {
   .home-section .scroll-button {
     position: absolute;
     z-index: 2;
-    bottom: 0;
+    bottom: -50px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -1345,7 +1345,7 @@ h1, h2, h3, h4 {
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
-      color: #fff !important; }
+      color: #000 !important; }
 
 .copyright {
   color: #fff; }
