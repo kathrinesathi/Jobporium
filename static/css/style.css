@@ -1284,6 +1284,60 @@ h1, h2, h3, h4 {
 
 .site-menu-toggle:hover {
   text-decoration: none; }
+
+  .form-subscribe {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.news{
+  background-color: #CC5500;
+  height:100vh;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  min-height: calc(1.5em + .75rem + 2px);
+  padding: .575rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 52px;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+.card {
+  padding: 20px;
+  background-color: #eee;
+  padding-bottom: 50px;
+  padding-top: 50px
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #f9a826;
+  outline: 0;
+  box-shadow: none
+}
+
+.border-rad {
+  border-top-right-radius: 28px;
+  border-bottom-right-radius: 28px;
+  color: #fff;
+  background-color: #f9a826;
+  border-color: #f9a826
+}
+
+.border-rad:hover {
+  background-color: #f9a826;
+  border-color: #f9a826
+}
 .text-justify{
   color:#fff;
 }
@@ -1293,7 +1347,7 @@ h1, h2, h3, h4 {
 .site-footer {
   padding: 7rem 0;
   position: relative;
-  background: grey; }
+  background: #000; }
   @media (max-width: 991.98px) {
     .site-footer {
       padding: 2rem 0; } }
