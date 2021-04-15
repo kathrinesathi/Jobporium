@@ -73,6 +73,9 @@ def category_view(request):
 def contact_view(request):
     return render(request, 'jobapp/contactus.html', {})
 
+def work_view(request):
+    return render(request, 'jobapp/work.html', {})
+
 
 
 def job_list_View(request):
