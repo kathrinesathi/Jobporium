@@ -1,10 +1,11 @@
     
   <!-- Site footer -->
-  <footer class="site-footer">
+  <footer class="site-footer" id="next">
    
     <a href="#top" class="smoothscroll scroll-top">
       <span class="icon-keyboard_arrow_up"></span>
     </a>
+    
    
     <!-- Top section -->
     <div class="container">
@@ -23,7 +24,7 @@
             <li><a href="{% url 'jobapp:contact-us' %}">Contact us</a></li>
             <li><a href="{% url 'jobapp:category' %}">Category</a></li>
             <li><a href="{% url 'jobapp:job-list' %}">Job for you</a></li>
-            <li><a href="page-typography.html">How it works</a></li>
+            <li><a href="{% url 'jobapp:how-it-works' %}">How it works</a></li>
             <li><a href="page-typography.html">Privacy policy</a></li>
           </ul>
         </div>
@@ -32,12 +33,12 @@
           <h5><b>&emsp;&emsp;Trending jobs</b></h5>
           <br>
           <ul class="footer-links">
-            <li><a href="job-list.html">Developer</a></li>
-            <li><a href="job-list.html">Cloud Computing </a></li>
-            <li><a href="job-list.html">Computer Network </a></li>
-            <li><a href="job-list.html">Computer Support </a></li>
-            <li><a href="job-list.html">Information Security </a></li>
-            <li><a href="job-list.html">Database Administrator</a></li>
+            <li><a href="{% url 'jobapp:job-list' %}">Developer</a></li>
+            <li><a href="{% url 'jobapp:job-list' %}">Cloud Computing </a></li>
+            <li><a href="{% url 'jobapp:job-list' %}">Computer Network </a></li>
+            <li><a href="{% url 'jobapp:job-list' %}">Computer Support </a></li>
+            <li><a href="{% url 'jobapp:job-list' %}">Information Security </a></li>
+            <li><a href="{% url 'jobapp:job-list' %}">Database Administrator</a></li>
           </ul>
         </div>
       </div>
