@@ -68,18 +68,19 @@
         <div class="col-sm-12 col-md-6">
           <h5><b>About</b></h5>
           <br>
-          <p class="text-justify">An employment website is a web site that deals specifically with employment or careers. Many employment websites are designed to allow employers to post job requirements for a position to be filled and are commonly known as job boards. Other employment sites offer employer reviews, career and job-search advice, and describe different job descriptions or employers. Through a job website a prospective employee can locate and fill out a job application.</p>
+          <p class="text-justify">Our web-app enables the candidates looking for Jobs in their domains. It has a simple and convenient user interface so that Job seekers can register themselves with their resumes and they can look up different jobs according to their qualifications.It makes the potential candidates and employees get connected and get more knowledge. Job seekers can also update their skill sets whenever they want. Employees can also register and publish their jobs which enables them to find the right candidates for the vacant positions. </p>
         </div>
 
         <div class="col-xs-6 col-md-3">
           <h5><b>&emsp;&emsp;Company</b></h5>
           <br>
           <ul class="footer-links">
-            <li><a href="page-about.html">About us</a></li>
+            <li><a href="{% url 'jobapp:about-us' %}">About us</a></li>
+            <li><a href="{% url 'jobapp:contact-us' %}">Contact us</a></li>
+            <li><a href="{% url 'jobapp:category' %}">Category</a></li>
+            <li><a href="{% url 'jobapp:job-list' %}">Job for you</a></li>
             <li><a href="page-typography.html">How it works</a></li>
-            <li><a href="page-faq.html">Help center</a></li>
             <li><a href="page-typography.html">Privacy policy</a></li>
-            <li><a href="page-contact.html">Contact us</a></li>
           </ul>
         </div>
 
@@ -87,11 +88,12 @@
           <h5><b>&emsp;&emsp;Trending jobs</b></h5>
           <br>
           <ul class="footer-links">
-            <li><a href="job-list.html">Front-end developer</a></li>
-            <li><a href="job-list.html">Android developer</a></li>
-            <li><a href="job-list.html">iOS developer</a></li>
-            <li><a href="job-list.html">Full stack developer</a></li>
-            <li><a href="job-list.html">Project administrator</a></li>
+            <li><a href="job-list.html">Developer</a></li>
+            <li><a href="job-list.html">Cloud Computing </a></li>
+            <li><a href="job-list.html">Computer Network </a></li>
+            <li><a href="job-list.html">Computer Support </a></li>
+            <li><a href="job-list.html">Information Security </a></li>
+            <li><a href="job-list.html">Database Administrator</a></li>
           </ul>
         </div>
       </div>
