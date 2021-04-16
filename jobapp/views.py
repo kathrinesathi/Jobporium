@@ -76,6 +76,9 @@ def contact_view(request):
 def work_view(request):
     return render(request, 'jobapp/work.html', {})
 
+def blog_single_view(request):
+    return render(request, 'jobapp/blog-single.html', {})
+
 
 
 def job_list_View(request):
